@@ -205,7 +205,7 @@ _simplerich_prompt() {
 
     user_info() {
         #Use %n for username
-        echo "[$(git_current_user_email) %m]"
+        echo "[$(git_current_user_email) %m $AWS_PROFILE]"
     }
 
     python_info() {
